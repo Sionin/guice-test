@@ -2,9 +2,9 @@ package com.github.sionin.model;
 
 public class Combined {
 
-    private A a;
-    private B b;
-    private C c;
+    A a;
+    B b;
+    C c;
 
     public Combined(A a, B b, C c) {
         this.a = a;
