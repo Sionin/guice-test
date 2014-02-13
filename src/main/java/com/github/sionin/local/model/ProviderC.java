@@ -1,4 +1,4 @@
-package com.github.sionin.model;
+package com.github.sionin.local.model;
 
 import javax.inject.Inject;
 import javax.inject.Provider;

@@ -1,8 +1,4 @@
-package com.github.sionin.model;
-
-import com.google.inject.Inject;
-
-import javax.inject.Named;
+package com.github.sionin.local.model;
 
 public class Singeltone {
 

@@ -1,6 +1,6 @@
-package com.github.sionin;
+package com.github.sionin.local;
 
-import com.github.sionin.model.*;
+import com.github.sionin.local.model.*;
 import com.google.inject.AbstractModule;
 import com.google.inject.Guice;
 import com.google.inject.Injector;

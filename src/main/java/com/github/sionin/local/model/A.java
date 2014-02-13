@@ -1,18 +1,19 @@
-package com.github.sionin.model;
+package com.github.sionin.local.model;
 
-public class C {
+public class A {
 
     private String value;
 
-    public C(String value) {
+    public A(String value) {
         this.value = value;
     }
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("C{");
+        final StringBuilder sb = new StringBuilder("A{");
         sb.append("value='").append(value).append('\'');
         sb.append('}');
         return sb.toString();
     }
+
 }

@@ -1,19 +1,16 @@
-package com.github.sionin.model;
+package com.github.sionin.local.model;
 
-import com.google.inject.Inject;
-
-public class B {
+public class C {
 
     private String value;
 
-    @Inject
-    public B(String value) {
+    public C(String value) {
         this.value = value;
     }
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("B{");
+        final StringBuilder sb = new StringBuilder("C{");
         sb.append("value='").append(value).append('\'');
         sb.append('}');
         return sb.toString();
